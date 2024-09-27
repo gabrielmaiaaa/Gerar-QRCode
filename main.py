@@ -1,7 +1,7 @@
 import qrcode
 
-# data = "url"
-data = ""
+# data = "conteudo"
+data = "https://bota-pra-andar-oficial.netlify.app/"
 
 qr = qrcode.QRCode(version=5, box_size=50, border=4)
 qr.add_data(data)
